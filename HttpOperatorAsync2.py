@@ -1,5 +1,5 @@
 from airflow.providers.http.operators.http import SimpleHttpOperator
-
+from astronomer.providers.http.triggers.http import HttpTrigger
 
 
 class HttpOperatorAsync(SimpleHttpOperator):
